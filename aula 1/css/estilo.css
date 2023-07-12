@@ -1,0 +1,52 @@
+/*Aplicando estilo nos elementos*/
+h2{
+	color: blue;
+}
+/*Seletor ID*/
+#p1{
+	color: green
+}
+/*Seletor Classe*/
+.center{
+	text-align: center;
+}
+/*Seletores agrupados*/
+h3, h4{
+	color: #12ABEF;
+}
+/*unidades de medida*/
+.percentual{
+	font-size: 100%;
+}
+.em{
+	font-size: 2em
+}
+.pt{
+	font-size: 14pt
+}
+.px{
+	font-size: 20px;
+}
+/*Estios de Fonte*/
+p{
+	font-family: Arial, sans-serif;
+}
+p.normal{
+	font-style: normal;
+}
+p.italico {
+	font-style: italic;
+}
+p.oblique {
+	font-style: oblique;
+}
+/*Alinhamento de texto*/
+p.centro{
+	text-align: center;
+}
+p.direita{
+	text-align: right;
+}
+p.justificado{
+	text-align: justify;
+}

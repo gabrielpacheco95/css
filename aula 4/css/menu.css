@@ -1,0 +1,52 @@
+/*aplicando da tag ul, será aplicado no menu inteiro*/
+/*padding: aumenta a altura da caixa. background-color: colocar cor na caixa inteira.
+margin: cria uma margem na volta da caixa*/
+#menu ul{
+	padding: 20px;
+	background-color: #ff99ff;
+	margin: 10px;
+}
+/*mexendo na tag nav*/
+#menu{
+	text-align: center;
+}
+/*mexendo na tag ul li*/
+/*display: inline - Deixa o menu alinhado na horizontal*/
+
+#menu ul li{
+	display: inline;
+}
+/*mexendo na tag a*/
+
+/*text-decoration: none - Tira o Sublinhado do link;
+ *padding: cria um espaçamento na altura e na largura;
+  display: inline-block - cria um pequeno espaçamento entre os links;
+  border-bottom: na hora de clicar no menu, a página não sobre com o efeito de baixar, e cria um sublinhado*/
+  
+#menu ul li a{
+	padding: 2px 10px;
+	display: inline-block;
+	text-decoration: none;
+	border-bottom: 3px solid #ededed;
+}
+/*hover: quando passa o mouse em cima*/
+#menu ul li a:hover{
+	background-color: #d6d6d6;
+	border-bottom: 3px solid #ea0000;
+}
+
+#s2 a:link{
+	color: black;
+	background-color: green;
+	border-radius: 8px;
+	padding: 5px;
+	text-decoration: none;
+}
+#s2 a:visited{
+	color: white;
+}
+#s2 a:hover{
+background-color: yellow;
+font-size: 20px;
+font-family: Arial Black;
+}

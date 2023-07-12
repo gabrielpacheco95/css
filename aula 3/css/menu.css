@@ -1,0 +1,42 @@
+#s1{
+	text-align: center;
+}
+#s1 a:visited{ /*isto é um link que o usuário visitou (ja foi clicado)*/
+	color: white;
+}
+#s1 a:hover{ /* isto é um link quando o uruário passa o mouse em cima */
+	color: blue;
+}
+#s1 a: active{ /* isto é um link no momento que é clicado */
+	color: black;
+}
+/*a: link: link normal e não visitado. background-color: cor no realce da volta do link. 
+O padding definie a altura e largura da caixa na volta do link. text-decoration: none Serve para retirar o sublinhado do link
+display: inline-block: Serve pra controlar o layout
+border = definir contorno*/
+
+#s1 a:link, a:visited{ 
+
+	background-color: #f44336;
+	padding: 14px 25px;	
+	text-decoration: none;
+	display: inline-block;
+	border-radius: 8px;
+	width: 120px;
+}
+
+#s1 a:hover, a:active{
+	background-color: green;
+	
+}#s2 a:link{
+	color: green;
+}
+#s2 a:visited{
+	color: red;
+}
+#s2 a:hover{
+	color: yellow;
+}
+#s2 a:active{
+	color: blue;
+}
